@@ -111,8 +111,8 @@
      background-color: #112469;
      color: white;
      position: absolute;
-     right: 60px;
-     top:45px;
+     right: 20px;
+     top:53px;
      border: none;
     
  }
@@ -128,4 +128,31 @@
     align-items: center;
     
  }
- 
+ .edit-icon{
+    color: #F3C10E;
+    
+ }
+ .del-icon{
+    color: red;
+    
+ }
+ .edit-icon:hover{
+    font-size: large;
+ }
+ .del-icon:hover{
+    font-size: large;
+ }
+ .d-flex h3{
+    color: #112469;
+ }
+ custom-headings{
+    color: gray;
+    background-color: #DCDEE3;
+ }
+
+ .table-striped tbody tr:nth-child(odd) {
+    background-color: white; /* Custom color for odd rows */
+  }
+  table-striped tbody tr:nth-child(even){
+    background-color: #DCDEE3;
+  }
