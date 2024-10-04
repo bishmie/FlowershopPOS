@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#blue_section{
+    background-color: #112469;
+    color:white ;
+    width: 35%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+.dark_blue_section{
+    background-color: #2C3968;
+    height: 85vh;
+    width: 80%;
+    position: absolute;
+    left:38%;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+}
+
+#white_section{
+    background-color: white;
+    color:#112469;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#login_page button{
+    background-color: #112469;
+    color: white;
+    border: none;
+    
+}
+#login_page{
+    
+}
+.logo{
+    position: absolute;
+    top: 25px;
+    left: 20px;
+}
+.header{
+    position: absolute;
+    left:130px;
+    z-index: 3;
+
+}
+.header h2{
+    font-size: 50px;
+    font-family: "Rammetto One", sans-serif;
+}
+.header h1{
+    font-size: 60px;
+    font-family: "Rammetto One", sans-serif;
+} 
+
+.login_form {
+
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; 
+    padding: 20px; /* Optional padding */
+
+}
+
+.login{
+    font-weight: 700;
+    text-align: left;
+
+}
+
+.form-label{
+    font-size: 17px;
+    font-weight: 400;
+}
+#navside{
+    background-color: #112469;
+    height: 100vh;
+}
+
+.navbar{
+    height: 40vh;
+    background-color: #112469;
+}
+#bouqutes{
+    position: relative;
+}
+ #LOGO{
+    color: white;
+ }
+ .form-control{
+    border-radius: 50px;
+ }
+
+     
+ 
+ .fa-solid {
+    color: rgb(253, 253, 253);
+ }
+ .d-flex button{
+     background-color: #112469;
+     color: white;
+     position: absolute;
+     right: 60px;
+     top:45px;
+     border: none;
+    
+ }
+ .d-flex button:hover{
+   background-color: white;
+   border: 2px solid #112469;
+   color: #112469;
+   
+ }
+ #tablePart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+ }
+ 
