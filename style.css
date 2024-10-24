@@ -200,12 +200,7 @@
     margin-right: 40px;
     
   }
-  #addbtn{
-    
-    border: none;
-   
-    margin-top: 20px;
-  }
+  
   .topic-bouq{
     margin-top: 20px;
     color: #112469;
@@ -268,13 +263,29 @@ nav i{
   background-color: #dddbdb;
  }
  .btn-primary{
-  background-color: #112469;
+  
   color: white;
   border-radius: 3px;
   border: none;
   padding: 10px 30px;
   font-weight: bold;
+  border: none;
+   
+    margin-top: 20px;
  }
+ #addbtn{
+    
+  
+        color: white;
+        border-radius: 3px;
+        border: none;
+        padding: 10px 30px;
+        font-weight: bold;
+        border: none;
+         
+          margin-top: 20px;
+       }
+ 
  .btn-secondary{
   background-color: white;
   border: 2px solid #112469;
