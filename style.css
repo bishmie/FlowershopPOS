@@ -79,25 +79,7 @@
 
 }
 
-.form-label{
-    font-size: 17px;
-    font-weight: 400;
-}
-#navside{
-    background-color: #112469;
-    height: 100vh;
-}
 
-.navbar{
-    height: 40vh;
-    background-color: #112469;
-}
-#bouqutes{
-    position: relative;
-}
- #LOGO{
-    color: white;
- }
  .form-control{
     border-radius: 50px;
  }
@@ -107,21 +89,7 @@
  .fa-solid {
     color: rgb(253, 253, 253);
  }
- .d-flex button{
-     background-color: #112469;
-     color: white;
-     position: absolute;
-     right: 20px;
-     top:53px;
-     border: none;
-    
- }
- .d-flex button:hover{
-   background-color: white;
-   border: 2px solid #112469;
-   color: #112469;
-   
- }
+ 
  #tablePart{
     display: flex;
     flex-direction: column;
@@ -155,4 +123,340 @@
   }
   table-striped tbody tr:nth-child(even){
     background-color: #DCDEE3;
+  }
+  table td{
+    padding: 3px;
+  }
+
+  .table th {
+    padding: 5px; /* Adjust the header padding to match */
+}
+  /* bouqet */
+ 
+  /* bouquet */
+
+
+  /* customerDup */
+
+  .formpart{
+    background-color: white;
+    color:#112469;
+    height: auto;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .cusform{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; 
+    padding: 20px;
+  }
+  
+
+  .sidebar {
+    height: auto;
+    padding: 20px;
+    background-color: #112469;
+  }
+
+  .sidebar h3 {
+    padding: 20px 0;
+    font-weight: bold;
+    color: white;
+  }
+
+  .sidebar a {
+    display: block;
+    padding: 10px 0;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .sidebar a:hover {
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    padding-left: 10px;
+  }
+
+  form h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #112469;
+  }
+
+  
+  .add-bouquet-button {
+    display: block;
+    margin-bottom: 20px;
+    text-align: right;
+    margin-right: 40px;
+    
+  }
+  #addbtn{
+    
+    border: none;
+   
+    margin-top: 20px;
+  }
+  .topic-bouq{
+    margin-top: 20px;
+    color: #112469;
+  }
+
+
+nav i{
+    padding-right: 20px;
+}
+
+  .sidebar {
+    height: 100vh;
+    padding: 20px;
+    background-color: #112469;
+  }
+  
+  .sidebar h3 {
+    padding: 20px 0;
+    font-weight: bold;
+    color: white;
+  }
+
+  .sidebar a {
+    display: block;
+    padding: 10px 0;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500px;
+  }
+
+ 
+
+  .form-header {
+    color: darkblue;
+    font-size: 24px;
+    
+  }
+
+  .form-search {
+    width: 200px;
+    margin-bottom: 60px;
+  }
+  
+  .form-container {
+    padding: 20px;
+  }
+  form label{
+      color: #112469;
+      font-weight: bold;
+  }
+ .form-control{
+  width: 60%;
+  background-color:#dddbdb ;
+  border-radius: 0px;
+ }
+ .form-search{
+  width: 30%;
+  border-radius: 100px;
+  background-color: #dddbdb;
+ }
+ .btn-primary{
+  background-color: #112469;
+  color: white;
+  border-radius: 3px;
+  border: none;
+  padding: 10px 30px;
+  font-weight: bold;
+ }
+ .btn-secondary{
+  background-color: white;
+  border: 2px solid #112469;
+  color: #112469;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 3px;
+ }
+ .btn-danger{
+  background-color: red;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px; 
+  border-radius: 3px;
+ }
+
+ #customer-btn{
+    margin-top: 100px;
+ }
+
+ #customer-form{
+    padding: 80px;
+ }
+ table{
+    padding: 40px;
+ }
+
+
+  .dashboard-box-small {
+    background-color: #2C3968;
+    color: white;
+  }
+  .dashboard-box-small:hover{
+    transform: scale(1.1);
+  }
+  .dashboard-box-large:hover{
+    transform: scale(1.1);
+  }
+  /* #box2{
+    background-color: palevioletred;
+  }
+  #box3{
+    background-color: orange;
+  }
+  #box4{
+    background-color: green;
+  }
+  #box5{
+    background-color: rgb(255, 0, 0);
+  }
+  #box6{
+    background-color: #66ff00;
+  } */
+
+  .dashboard-topic {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: #112469;
+  }
+
+  .dashboard-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  .dashboard-box-small, .dashboard-box-large {
+    /* background-color: #f0f0f0; */
+    border-radius: 8px;
+   
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 10px;
+  }
+  .dashboard-box-small div:first-child{
+    color: #9a9a9c;
+    font-weight: bold;
+  }
+  .dashboard-box-large div:nth-child(2){
+    color: #112469;
+    font-weight: bold;
+  }
+  .dashboard-box-large div:nth-child(3){
+    color: #112469;
+    font-weight: bold;
+  }
+
+
+  .dashboard-box-small {
+    width: 160px; /* Adjust width */
+    height: 130px;
+    border-radius: 0px;
+    padding: 20px; /* Adjust height */
+  }
+
+  .dashboard-box-large {
+    width: 250px; /* Adjust width */
+    height: 200px;
+    padding: 30px; /* Adjust height */
+  }
+
+  .count {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .icon {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+
+
+  .sidebar nav a:hover {
+    background-color: #495057;
+  }
+
+  .dashboard-topic {
+    font-size: 28px;
+    margin: 20px 0;
+    color:  #112469;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .dashboard-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .dashboard-box {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    flex: 1 1 calc(33% - 20px);
+    transition: transform 0.3s;
+  }
+
+  .dashboard-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  }
+
+  .dashboard-box h4 {
+    margin: 0 0 10px;
+  }
+
+  .icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+
+  .recent-activity {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+
+  .recent-activity h4 {
+    margin-bottom: 15px;
+  }
+
+  .activity-item {
+    border-bottom: 1px solid #e9ecef;
+    padding: 10px 0;
+  }
+
+  .activity-item:last-child {
+    border-bottom: none;
+  }
+
+  @media (max-width: 768px) {
+    .dashboard-box {
+      flex: 1 1 100%;
+      max-width: 100%; /* Full width on small screens */
+    }
   }
