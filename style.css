@@ -80,12 +80,8 @@
 }
 
 
- .form-control{
-    border-radius: 50px;
- }
-
-     
  
+    
  .fa-solid {
     color: rgb(253, 253, 253);
  }
@@ -124,13 +120,7 @@
   table-striped tbody tr:nth-child(even){
     background-color: #DCDEE3;
   }
-  table td{
-    padding: 3px;
-  }
-
-  .table th {
-    padding: 5px; /* Adjust the header padding to match */
-}
+ 
   /* bouqet */
  
   /* bouquet */
@@ -205,6 +195,10 @@
     margin-top: 20px;
     color: #112469;
   }
+  .topic-bouq1{
+    margin-top: 45px;
+    color: #112469;
+  }
 
 
 nav i{
@@ -252,11 +246,7 @@ nav i{
       color: #112469;
       font-weight: bold;
   }
- .form-control{
-  width: 60%;
-  background-color:#dddbdb ;
-  border-radius: 0px;
- }
+ 
  .form-search{
   width: 30%;
   border-radius: 100px;
@@ -288,7 +278,7 @@ nav i{
  
  .btn-secondary{
   background-color: white;
-  border: 2px solid #112469;
+  border: 1px solid #112469;
   color: #112469;
   font-weight: bold;
   padding: 10px 20px;
@@ -303,17 +293,11 @@ nav i{
   border-radius: 3px;
  }
 
- #customer-btn{
-    margin-top: 100px;
+ 
+ 
+ .dashboard-box h4{
+    color: #112469;
  }
-
- #customer-form{
-    padding: 80px;
- }
- table{
-    padding: 40px;
- }
-
 
   .dashboard-box-small {
     background-color: #2C3968;
@@ -341,9 +325,9 @@ nav i{
     background-color: #66ff00;
   } */
 
-  .dashboard-topic {
-    text-align: center;
-    font-size: 2rem;
+  .dash-topic {
+    text-align: left;
+    font-size: 1.5rem;
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: 40px;
@@ -378,22 +362,24 @@ nav i{
   }
 
 
-  .dashboard-box-small {
-    width: 160px; /* Adjust width */
-    height: 130px;
-    border-radius: 0px;
-    padding: 20px; /* Adjust height */
+  
+
+  .dashboard-box:first-child{
+    background-color: orange;
   }
 
-  .dashboard-box-large {
-    width: 250px; /* Adjust width */
-    height: 200px;
-    padding: 30px; /* Adjust height */
+  .dashboard-box:nth-child(2){
+    background-color: rgb(236, 171, 193);
+  }
+
+  .dashboard-box:nth-child(3){
+    background-color: green;
   }
 
   .count {
     font-size: 2rem;
     font-weight: bold;
+    color: white;
   }
 
   .icon {
@@ -470,4 +456,8 @@ nav i{
       flex: 1 1 100%;
       max-width: 100%; /* Full width on small screens */
     }
+  }
+
+  form input{
+    border-radius: 0px;
   }

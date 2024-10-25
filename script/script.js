@@ -11,4 +11,7 @@ function loadPage(event, page) {
         console.error("Error loading page:", error);
         contentArea.innerHTML = "<p>Failed to load page. Please try again later.</p>";
       });
-  }
+  }    
+
+
+  
