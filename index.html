@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="assets/stylesheet/buttonAnmation.css">
     <link rel="stylesheet" href="assets/stylesheet/storeManageCSSFile.css">
     <link rel="stylesheet" href="assets/stylesheet/placeOrderCSSFile.css">
-    <link rel="stylesheet" href="assets/stylesheet/dashboard.css">
 
     <style>
         .margin-left-0{
@@ -31,10 +30,8 @@
                 left: 242px;
             }
 
-
             #billBtn{
                 padding-left: 60px;
-
             }
 
             #addToCartBtn{
@@ -46,7 +43,7 @@
             }
 
             #DashGroStore{
-                -webkit-text-fill-color: #0a125e;
+                -webkit-text-fill-color: #590067;
                 font-weight: bold;
             }
 
@@ -910,7 +907,7 @@
         <nav class="navbar shadow p-3 mb-5 bg-body-tertiary rounded padding" style="background-color: #ffffff;">
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
-                    <a id="DashGroStore" class="navbar-brand" href="#">Flower For You</a>
+                    <a id="DashGroStore" class="navbar-brand" href="#">GroStore</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -918,23 +915,23 @@
                     <div class="collapse navbar-collapse headerPosition" id="navbarNavAltMarkup">
                         <div class="navbar-nav position container topBotomBordersIn">
                             <span id="dashboard-tab" class="nav-link active" aria-current="page" href="">Dashboard &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                            <span id="customer-tab" class="nav-link active">Customers &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                            <span id="store-tab" class="nav-link active">Bouquets &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                            <span id="customer-tab" class="nav-link active">Customer &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                            <span id="store-tab" class="nav-link active">Store &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
                             <span id="placeOrder-tab" class="nav-link active">Place Order &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                            <!--                            <span class="nav-link active">About us &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>-->
+                            <span class="nav-link active">About us &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
                         </div>
-                        <!--                        <div id="profileDropdown" class="dropdown">-->
-                        <!--                            <img class="profile btn-secondary dropdown-toggle" data-bs-toggle="dropdown" src="assets/image/profile.jpg" alt="profile" title="profile">-->
+                        <div id="profileDropdown" class="dropdown">
+                            <img class="profile btn-secondary dropdown-toggle" data-bs-toggle="dropdown" src="assets/image/profile.jpg" alt="profile" title="profile">
 
-                        <!--                            <ul id="dropdownList" class="dropdown-menu" aria-labelledby="dropdownMenuButton2">-->
-                        <!--                                <li><img id="dropdownImage" src="assets/image/profile.jpg" class="dropdown-item"></li>-->
-                        <!--                                <li id="" class="textAlignCenter"><a class="dropdown-item logout" href="file/loginPage.html">Logout</a></li>-->
-                        <!--                                <li><a class="dropdown-item profileDetail">Ramesh Layan</a></li>-->
-                        <!--                                <li><a class="dropdown-item profileDetail">Beruwala</a></li>-->
-                        <!--                                <li><a class="dropdown-item profileDetail">075 798 0223</a></li>-->
-                        <!--                                <li class="textAlignCenter"><a class="dropdown-item signup" href="file/signupPage.html">Sign Up</a></li>-->
-                        <!--                            </ul>-->
-                        <!--                        </div>-->
+                            <ul id="dropdownList" class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                                <li><img id="dropdownImage" src="assets/image/profile.jpg" class="dropdown-item"></li>
+                                <li id="" class="textAlignCenter"><a class="dropdown-item logout" href="file/loginPage.html">Logout</a></li>
+                                <li><a class="dropdown-item profileDetail">Ramesh Layan</a></li>
+                                <li><a class="dropdown-item profileDetail">Beruwala</a></li>
+                                <li><a class="dropdown-item profileDetail">075 798 0223</a></li>
+                                <li class="textAlignCenter"><a class="dropdown-item signup" href="file/signupPage.html">Sign Up</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </nav>
@@ -960,9 +957,9 @@
     </div>
 
     <div class="row">
-        <!--            <div id="d1" class="tableTitleParent margin">-->
-        <!--                <h4 class="tableTitle">View Customers</h4>-->
-        <!--            </div>-->
+        <div id="d1" class="tableTitleParent margin">
+            <h4 class="tableTitle">View Customers</h4>
+        </div>
     </div>
 
     <div class="tableDiv customerTable">
@@ -1139,11 +1136,11 @@
         </div>
     </div>
 
-    <!--    <div class="row w-900">-->
-    <!--        <div class="margin tableTitleParent">-->
-    <!--            <h4 class="tableStoreTitle">View Items</h4>-->
-    <!--        </div>-->
-    <!--    </div>-->
+    <div class="row w-900">
+        <div class="margin tableTitleParent">
+            <h4 class="tableStoreTitle">View Items</h4>
+        </div>
+    </div>
 
     <div class="tableDiv storeTable">
         <table class="table">
@@ -1469,15 +1466,13 @@
 
 <!--dashboard-->
 <section id="dash-sec">
-
-
     <div class="row margin fonts">
         <div id="div1" class="card shadow col-md-5 card-container">
             <div>
                 <h2 class="cardText">00</h2>
                 <h5 class="cardText">Total Orders</h5>
             </div>
-            <!--            <div class="back">You can check here<br> the number of orders we<br> have received so far</div>-->
+            <div class="back">You can check here<br> the number of orders we<br> have received so far</div>
         </div>
 
         <div class="card shadow col-md-5 card-container">
@@ -1485,7 +1480,7 @@
                 <h2 class="cardText" id="customer">00</h2>
                 <h5 class="cardText">Total Customers</h5>
             </div>
-            <!--            <div class="back">The number of customers<br> registered in our system<br> so far can be checked here.</div>-->
+            <div class="back">The number of customers<br> registered in our system<br> so far can be checked here.</div>
         </div>
 
         <div class="card shadow col-md-5 card-container">
@@ -1493,7 +1488,7 @@
                 <h2 class="cardText">00</h2>
                 <h5 class="cardText">Total Income</h5>
             </div>
-            <!--            <div class="back">You can check here<br> the income received<br> by our shop so far</div>-->
+            <div class="back">You can check here<br> the income received<br> by our shop so far</div>
         </div>
     </div>
 
@@ -1532,10 +1527,10 @@
         </table>
     </div>
 
-    <!--    <div id="viewOrderBtnParent">-->
-    <!--        <button id ="updateButtonDash" type="button" class="btn btn-size btn-all btn-update updateBtn-color " data-bs-toggle="modal" data-bs-target="#updateOrderModal" ><span>Update</span></button>-->
-    <!--        <button id="removeButtonDash" type="button" class="btn btn-size btn-all btn-remove removeBtn-color " data-bs-toggle="modal" data-bs-target="#removeOrderModal"><span>Remove</span></button>-->
-    <!--    </div>-->
+    <div id="viewOrderBtnParent">
+        <button id ="updateButtonDash" type="button" class="btn btn-size btn-all btn-update updateBtn-color " data-bs-toggle="modal" data-bs-target="#updateOrderModal" ><span>Update</span></button>
+        <button id="removeButtonDash" type="button" class="btn btn-size btn-all btn-remove removeBtn-color " data-bs-toggle="modal" data-bs-target="#removeOrderModal"><span>Remove</span></button>
+    </div>
 
     <!--  update order modal  -->
     <div class="modal fade" id="updateOrderModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -1709,7 +1704,45 @@
 </section>
 
 <!--Footer-->
+<footer id="footer" class="margin padding position footer fonts">
+    <div class="margin padding">
+        <div class="row margin padding">
+            <div id="mainDivF" class="position">
+                <div id="aboutUs" class="col-sm-4 col-xs">
+                    <h1 id="about">About Us</h1>
+                </div>
+                <div id="fDiv1" class="col-sm-4 col-xs">
+                    <p>More Link</p>
+                    <a href="#customer"><p>Our Customers<br><a href="#orders">View Orders</a></p></a>
+                </div>
+                <div id="fDiv2" class="col-sm-4 col-xs">
+                    <p>Primary Menu</p>
+                    <p><a href="#">Dashboard</a><br>
+                        <a href="customerManage.html">Customer</a><br>
+                        <a href="storeManage.html">Store</a><br>
+                        <a href="placeOrderManage.html">Place order
+                        </a><br>About us</p>
+                </div>
+                <div id="fDiv3" class="col-sm-4 col-xs">
+                    <p>Contact <Us></Us></p>
+                    <p>Email : rameshlayan4@gmail.com<br>Hotline : +94 76 452 365 2</p>
+                </div>
 
+                <div id="groStore" class="col-xs">
+                    <p class="margin">GroStore</p>
+                </div>
+                <div id="socialMedia" class="col-sm-4 col-xs">
+                    <img id="facebook" src="assets/image/icons8-facebook-64.png" alt="facebook" title="facebook.com">
+                    <img id="instagram" src="assets/image/icons8-instagram-50.png" alt="instagram" title="instagram.com">
+                    <img id="whatsapp" src="assets/image/icons8-whatsapp-50.png" alt="whatsapp" title="whatsapp.com">
+                </div>
+                <div id="allRights" class="col-sm-4 col-xs">
+                    <p class="margin">All Rights Reserved Ramesh Layan 2024</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 
 <script src="assets/lib/jquery-3.7.1.min.js"></script>
 <script type="module" src="controller/CustomerController.js"></script>
