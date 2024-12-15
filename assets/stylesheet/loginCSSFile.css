@@ -32,7 +32,7 @@
 
 #signUp{
     text-align: right;
-    -webkit-text-fill-color: #590067;
+    -webkit-text-fill-color: #0a125e;
 
     position: absolute;
     left: 0;
@@ -56,7 +56,7 @@
     aspect-ratio: 1/1;
 
     border-radius: 100px;
-    border:2px solid #590067;
+    border:2px solid #0a125e;
 }
 
 #parent{
@@ -109,7 +109,7 @@
 }
 
 #loginBtn{
-    background-color: #590067;
+    background-color: #0a125e;
     -webkit-text-fill-color: white;
     width: 150px;
 

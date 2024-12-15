@@ -12,7 +12,7 @@ a:link{
 }
 
 #DashGroStore{
-    -webkit-text-fill-color: #590067;
+    -webkit-text-fill-color: #0a125e;
     font-weight: bold;
 }
 
@@ -22,12 +22,6 @@ a:link{
     left: -20px;
 }
 
-/*#dropdownList{*/
-/*    width: 250px;*/
-/*    height: 400px;*/
-/*    position: absolute;*/
-/*    left: 9rem;*/
-/*}*/
 
 #dropdownImage{
 
@@ -57,7 +51,7 @@ a:link{
 
 .logout{
     text-align: center;
-    -webkit-text-fill-color: #590067;
+    -webkit-text-fill-color: #0a125e;
     font-weight: bold;
 
     margin-bottom: 20px;
@@ -85,7 +79,7 @@ a:link{
 
 .cardText{
     text-align: center;
-    -webkit-text-fill-color: purple;
+    -webkit-text-fill-color: #0a125e;
     margin: 25px;
     font: 25px "Raleway";
 }
@@ -114,7 +108,7 @@ a:link{
 .searchBtn{
     border-radius: 200px;
     width: 150px;
-    background-color: purple;
+    background-color: #0a125e;
     -webkit-text-fill-color: white;
     border: 0;
 }
@@ -128,7 +122,7 @@ a:link{
 }
 
 .OrderTableHead{
-    background-color: #590067 !important;
+    background-color: #0a125e !important;
     -webkit-text-fill-color: white;
     font: 18px Raleway;
 }
@@ -181,7 +175,7 @@ a:link{
     width: 100vw;
     height: 65vh;
     margin: 0;
-    background-color: #3A0044;
+    background-color: #0a125e;
 
     position: relative;
     top: 5px;
@@ -354,39 +348,42 @@ div.container span
 }
 
 /* Top and Bottom borders come in */
-div.topBotomBordersIn span:before, div.topBotomBordersIn span:after
-{
-    position: absolute;
-    left: 12px;
-    width: 80%;
-    height: 2px;
-    background: #590067;
-    content: "";
-    opacity: 0;
-    transition: all 0.3s;
+/*div.topBotomBordersIn span:before, div.topBotomBordersIn span:after*/
+/*{*/
+/*    position: absolute;*/
+/*    left: 12px;*/
+/*    width: 80%;*/
+/*    height: 2px;*/
+/*    background: #590067;*/
+/*    content: "";*/
+/*    opacity: 0;*/
+/*    transition: all 0.3s;*/
+/*}*/
+
+
+
+/*div.topBotomBordersIn span:before*/
+/*{*/
+/*    top: 0px;*/
+/*    transform: translateY(0px);*/
+/*}*/
+
+/*div.topBotomBordersIn span:after*/
+/*{*/
+/*    left: 12px;*/
+/*    bottom: 20px;*/
+/*    transform: translateY(10px);*/
+/*}*/
+
+/*div.topBotomBordersIn span:hover:before, div.topBotomBordersIn span:hover:after*/
+/*{*/
+/*    opacity: 1;*/
+/*    transform: translateY(0px);*/
+/*}*/
+.topBotomBordersIn > span:hover{
+    color: #0a125e;
+    font-weight: bold;
 }
-
-
-
-div.topBotomBordersIn span:before
-{
-    top: 0px;
-    transform: translateY(0px);
-}
-
-div.topBotomBordersIn span:after
-{
-    left: 12px;
-    bottom: 20px;
-    transform: translateY(10px);
-}
-
-div.topBotomBordersIn span:hover:before, div.topBotomBordersIn span:hover:after
-{
-    opacity: 1;
-    transform: translateY(0px);
-}
-
 /*card animation*/
 
 .card-container, .front, .back {
@@ -394,49 +391,5 @@ div.topBotomBordersIn span:hover:before, div.topBotomBordersIn span:hover:after
     height: 10rem;
 }
 
-.back {
-    box-sizing: border-box;
-    padding: 20px;
-    border-radius: 4px;
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .25);
 
-    font-family: BlinkMacSystemFont, "Segoe UI", sans-serif;
-    font-size: 2rem;
-    color: #fff;
-    text-align: center;
-}
 
-.back {
-    background-image: linear-gradient(to right bottom, #590067, #590067);
-    width: 322px;
-    height: 162px;
-
-    font: 22px Arial;
-    -webkit-text-fill-color: white;
-    font-weight: normal;
-    text-align: center;
-    padding-top: 40px;
-}
-
-.back {
-    position: absolute;
-    top: 0;
-    left: 0;
-    backface-visibility: hidden;
-    overflow: hidden;
-    transition: transform .8s ease;
-}
-
-.back {
-    transform: rotateY(180deg);
-}
-.card-container:hover .front {
-    transform: rotateY(-180deg);
-}
-.card-container:hover .back {
-    transform: rotateY(0deg);
-}
-
-.card-container {
-    perspective: 75rem;
-}
